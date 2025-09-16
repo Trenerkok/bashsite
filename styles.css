@@ -57,6 +57,7 @@ section h2 {
 /* Стилі для зображень Bash-скрипта */
 .bash-script-images {
     display: flex;
+    lex-direction: column;
     justify-content: center;
     gap: 20px;
 }
