@@ -94,25 +94,12 @@ history
     <section id="bash-script">
         <h2>Bash-скрипт для імітації авторизації</h2>
         <p>
-            Для створення простого bash-скрипта для авторизації, можна використати наступний код:
+            Ось зображення, що демонструє bash-скрипт для імітації авторизації користувача:
         </p>
-        <pre>
-            <code>
-#!/bin/bash
-
-echo "Введіть ім'я користувача:"
-read username
-
-echo "Введіть пароль:"
-read -s password
-
-if [ "$username" == "admin" ] && [ "$password" == "password123" ]; then
-    echo "Авторизація успішна!"
-else
-    echo "Невірне ім'я користувача або пароль."
-fi
-            </code>
-        </pre>
+        <div class="bash-script-images">
+            <img src="code.png" alt="Код Bash-скрипта" class="bash-img">
+            <img src="work.png" alt="Робота Bash-скрипта" class="bash-img">
+        </div>
     </section>
 
     <section id="sources">
