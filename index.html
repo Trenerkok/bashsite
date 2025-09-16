@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ОС GNU/Linux</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Операційна система GNU/Linux</h1>
+        <nav>
+            <ul>
+                <li><a href="#info">Про Linux</a></li>
+                <li><a href="#distros">Популярні дистрибутиви</a></li>
+                <li><a href="#commands">Команди CLI</a></li>
+                <li><a href="#bash-script">Bash-скрипт</a></li>
+                <li><a href="#sources">Джерела</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="info">
+        <h2>Що таке GNU/Linux?</h2>
+        <p>GNU/Linux — це потужна та гнучка операційна система з відкритим вихідним кодом. Вона складається з ядра Linux, розробленого Лінусом Торвальдсом, та програмного забезпечення з проекту GNU, яке надає інтерфейс користувача, утиліти, бібліотеки та інше.</p>
+    </section>
+
+    <section id="distros">
+        <h2>Популярні дистрибутиви</h2>
+        <ul>
+            <li>Ubuntu</li>
+            <li>Debian</li>
+            <li>Fedora</li>
+            <li>Arch Linux</li>
+            <li>Linux Mint</li>
+            <li>CentOS</li>
+        </ul>
+    </section>
+
+    <section id="commands">
+        <h2>Приклади команд у CLI</h2>
+        <pre>
+            <code>
+# Перегляд поточної директорії
+pwd
+
+# Виведення повідомлення
+echo "Hello, Linux!"
+
+# Перегляд вмісту директорії
+ls
+
+# Перехід в іншу директорію
+cd /home/user
+
+# Створення нового файлу
+touch newfile.txt
+
+# Створення нової директорії
+mkdir new_directory
+
+# Копіювання файлів
+cp source.txt destination.txt
+
+# Переміщення файлів
+mv old_name.txt new_name.txt
+
+# Видалення файлу
+rm file_to_delete.txt
+
+# Перегляд історії команд
+history
+            </code>
+        </pre>
+    </section>
+
+    <section id="bash-script">
+        <h2>Bash-скрипт для імітації авторизації</h2>
+        <pre>
+            <code>
+#!/bin/bash
+
+echo "Введіть ім'я користувача:"
+read username
+
+echo "Введіть пароль:"
+read -s password
+
+if [ "$username" == "admin" ] && [ "$password" == "password123" ]; then
+    echo "Авторизація успішна!"
+else
+    echo "Невірне ім'я користувача або пароль."
+fi
+            </code>
+        </pre>
+    </section>
+
+    <section id="sources">
+        <h2>Джерела інформації</h2>
+        <ul>
+            <li><a href="https://www.gnu.org/">Офіційний сайт GNU</a></li>
+            <li><a href="https://www.kernel.org/">Офіційний сайт Linux</a></li>
+            <li><a href="https://www.ubuntu.com/">Ubuntu</a></li>
+            <li><a href="https://www.archlinux.org/">Arch Linux</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Операційна система GNU/Linux</p>
+    </footer>
+</body>
+</html>
